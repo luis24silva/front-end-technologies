@@ -1,0 +1,18 @@
+@mixin triangle-equilateral-down ($lenght, $color) {
+    width: 0;
+    height: 0;
+
+    @if ( $lenght ) {
+        border-left: $lenght solid transparent;
+        border-right: $lenght solid transparent;
+    } @else {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+    }
+
+    @if( $color ) {
+        border-top: 15px solid  $color;
+    } @else {
+        border-top: 15px solid  hsl(217, 19%, 35%);
+    }
+}

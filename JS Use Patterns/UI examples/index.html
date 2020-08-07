@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Graphic UI</title>
+</head>
+<body>
+	<div class="b-card">
+		<div class="b-card__salut">Welcome to the program</div>
+		<div class="b-card__result"></div>
+		<div class="b-card__instructions">Please select one of the options in the dropdown</div>
+	</div>
+	<div id="root"></div>
+	<div id="root2"></div>
+</body>
+<!--<script src="Literals.js"></script>-->
+<!--<script src="Singleton.js"></script>-->
+<script src="Module.js"></script>
+
+<script type="text/javascript">
+	(function(){
+		
+		/*
+		//Literals
+		var instance = Dropdown;
+		instance.init(["Hugo", "Paco", "Luis"], "#root");
+
+		var instanceTwo = Dropdown;
+		instanceTwo.init(["Volvo", "Saab", "Skoda"], "#root2");
+		*/
+
+		/*
+		//Singleton
+		var instance = Dropdown;
+		instance.getInstance(["Hugo", "Paco", "Luis"], "#root");
+
+		var instanceTwo = Dropdown;
+		instanceTwo.getInstance(["Volvo", "Saab", "Skoda"], "#root2");
+		*/
+
+		/*
+		//Module
+		var instance = Dropdown();
+		instance.init( ["Hugo", "Paco", "Luis"], "#root" );
+
+		var instanceTwo = Dropdown();
+		instanceTwo.init(["Volvo", "Saab", "Skoda"], "#root2");
+		*/
+
+	})();
+</script>
+</html>

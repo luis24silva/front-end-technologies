@@ -1,0 +1,10 @@
+#Here we define the folders and sort of files we don not want to Git to track
+#IDEA Webstorm
+.idea
+
+#Sublime Text
+*.sublime-workspace
+
+#GNU/Linux
+*~
+!.gitignore
